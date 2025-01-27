@@ -1,0 +1,47 @@
+name: paper_manager
+description: "A Paper Management Application"
+publish_to: 'none'
+
+version: 1.0.0+1
+
+environment:
+  sdk: '>=3.3.1 <4.0.0'
+  flutter: ">=3.19.0"
+
+dependencies:
+  flutter:
+    sdk: flutter
+  cupertino_icons: ^1.0.2
+  # 状态管理
+  provider: ^6.1.1
+  # 路由管理
+  go_router: ^13.2.0
+  # 本地存储
+  isar: ^3.1.0
+  isar_flutter_libs: ^3.1.0
+  path_provider: ^2.1.2
+  # 文件操作
+  file_picker: ^6.1.1
+  # PDF 处理
+  # syncfusion_flutter_pdfviewer: ^24.1.41
+  # UI 组件
+  flutter_markdown: ^0.6.18
+  # 窗口控制
+  window_manager: ^0.3.8
+  # 暂时注释掉 macos_ui
+  # macos_ui: ^2.0.2
+  # 暂时注释掉 url_launcher 相关依赖
+  # url_launcher: ^6.2.5
+  # url_launcher_linux: ^3.1.1
+
+dev_dependencies:
+  flutter_test:
+    sdk: flutter
+  flutter_lints: ^3.0.1
+  isar_generator: ^3.1.0
+  build_runner: ^2.4.9
+  analyzer: ^5.13.0
+
+# 移除所有 dependency_overrides
+flutter:
+  uses-material-design: true
