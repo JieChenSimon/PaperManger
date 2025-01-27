@@ -2,6 +2,8 @@
 
 A Flutter application for managing academic papers and research documents.
 
+Still in development.
+
 ## Features
 
 - Cross-platform support (macOS, Linux, Windows)
